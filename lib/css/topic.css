@@ -1,0 +1,745 @@
+/* 最新更新 */
+.mtop7 {
+    margin-top: 7px;
+}
+.commonbox {
+    background: #fff;
+    clear: both;
+    zoom: 1;
+    overflow: hidden;
+    border-bottom: 1px solid #dbe1ec;
+    border-top: 1px solid #dbe1ec;
+    padding-bottom: 16px;
+}
+.nopab {
+    border-bottom: none;
+}
+.pbtit {
+    padding: 15px 10px 15px 0;
+    border-bottom: 1px solid #dbe1ec;
+    overflow: hidden;
+}
+.pbtit a {
+    float: right;
+    font-size: 12px;
+}
+.pbtit h2 {
+    font-size: 16px;
+    height: 17px;
+    line-height: 17px;
+    border-left: 5px solid #45abff;
+    padding-left: 5px;
+    font-weight: bold;
+    float: left;
+}
+.pbtit .chakanmore {
+    float: right;
+    font-size: 14px;
+    height: 17px;
+    line-height: 17px;
+    color: #999;
+}
+.pbtit.comment {
+    border-bottom: none;
+}
+.Cont1 {
+    display: block;
+    padding: 0 2px;
+    overflow: hidden;
+}
+.Cont1 ul {
+    display: block;
+    overflow: hidden;
+}
+.Cont1 ul li {
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.Cont1 ul li a.C1-explain {
+    display: block;
+    margin: 10px auto;
+}
+.C1-explain>div {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+}
+.C1-explain div span {
+    display: inline-block;
+    position: absolute;
+    width: 36px;
+    height: 17px;
+    top: -4px;
+    left: -9px;
+}
+.C1-explain div span.fine {
+    background: url(../images/fine.png) no-repeat;
+    background-size: 36px 17px;
+}
+.C1-explain div span.hot {
+    background: url(../images/hot.png) no-repeat;
+    background-size: 36px 17px;
+}
+.C1-explain div span.new {
+    background: url(../images/new.png) no-repeat;
+    background-size: 36px 17px;
+}
+.C1-explain div img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.C1-explain p {
+    display: block;
+    width: 100%;
+    color: #333;
+    font-size: 14px;
+    line-height: 15px;
+    height: 15px;
+    overflow: hidden;
+}
+.C1-explain .div-img {
+    height: 60px;
+    overflow: hidden;
+    display: block;
+}
+.dbline .C1-explain p {
+    font-size: 12px;
+    width: 90%;
+    line-height: 15px;
+    height: 30px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+}
+.tab_btn {
+    float: right;
+    height: 17px;
+    line-height: 15px;
+    font-size: 16px;
+}
+.tab_btn span.cur {
+    color: #45abff;
+}
+.Cont1 ul li a.btn {
+    display: block;
+    clear: both;
+    color: #888;
+    line-height: 27px;
+    width: 54.5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin: 0 auto 10px auto;
+}
+.Cont1 ul li a.d_btn {
+    font-size: 14px;
+    display: block;
+    clear: both;
+    color: #45abff;
+    line-height: 30px;
+    width: 58px;
+    border: 1px solid #45abff;
+    border-radius: 3px;
+    margin: 0 auto 5px auto;
+}
+.Cont1 ul li a.a_btn {
+    clear: both;
+    display: block;
+    color: #72c322;
+    line-height: 27px;
+    width: 58px;
+    border: 1px solid #72c322;
+    border-radius: 3px;
+    margin: 0 auto 10px auto;
+}
+.Cont1 ul li a.s_btn {
+    display: block;
+    clear: both;
+    color: #3d89e4;
+    line-height: 27px;
+    width: 58px;
+    border: 1px solid #3d89e4;
+    border-radius: 3px;
+    margin: 0 auto 10px auto;
+}
+.Cont-J {
+    display: block;
+    /*overflow: hidden;*/
+}
+.Cont-J ul {
+    display: block;
+    overflow: hidden;
+}
+.Cont-J ul li {
+    position: relative;
+    padding: 15px 10px;
+    border-bottom: 1px solid #dbe1ec;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    overflow: hidden;
+}
+.Cont-J ul li:last-child {
+    border-bottom: none;
+}
+.Cont-J ul li>a.CJ-explain {
+    float: left;
+}
+.Cont-J ul li:active {
+    background: #eee;
+}
+.CJ-explain div {
+    display: inline-block;
+    position: relative;
+}
+.CJ-explain div span {
+    display: inline-block;
+    position: absolute;
+    width: 36px;
+    height: 17px;
+    top: -4px;
+    left: -9px;
+    z-index: 10;
+}
+.CJ-explain div span.fine {
+    background: url(../images/fine.png) no-repeat;
+    background-size: 36px 17px;
+}
+.CJ-explain div span.hot {
+    background: url(../images/hot.png) no-repeat;
+    background-size: 36px 17px;
+}
+.CJ-explain div span.new {
+    background: url(../images/new.png) no-repeat;
+    background-size: 36px 17px;
+}
+.CJ-explain div img {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background: #969696;
+}
+.Cont-J ul li .CJ-sub {
+    display: block;
+    height: 40px;
+    margin-left: 75px;
+    position: relative;
+}
+.Cont-J ul li .CJ-sub>div {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    display: block;
+    margin-right: 67.5px;
+}
+.CJ-sub>div a {
+    display: block;
+    width: 108%;
+    color: #333;
+    font-size: 16px;
+    overflow: hidden;
+}
+.Cont-J ul li>p {
+    display: block;
+    height: 24px;
+    margin-left: 75px;
+    line-height: 24px;
+    color: #999;
+    font-size: 12px;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.CJ-sub dl {
+    display: block;
+    overflow: hidden;
+}
+.CJ-sub dt {
+    border-right: 1px solid #d9d9d9;
+    padding-right: 12px;
+}
+.CJ-sub dt,
+.CJ-sub dd {
+    display: inline-block;
+    font-size: 12px;
+    height: 16px;
+    color: #999;
+    margin-right: 10px;
+}
+.Cont-J ul li a.JC_btn2 {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    line-height: 31px;
+    width: 59.5px;
+    background: #45abff;
+    border-radius: 3px;
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+.Cont-J ul li a.JC_btn2:active {
+    opacity: .8;
+}
+.me_shadow {
+    width: 95%;
+    border-bottom: 1px solid rgba(223, 223, 223, 0.8);
+    -webkit-box-shadow: 0 2px 0 rgba(227, 227, 227, 0.2);
+            box-shadow: 0 2px 0 rgba(227, 227, 227, 0.2)
+}
+.more_game {
+    line-height: 39px;
+    background: #f6f6f6;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+.more_game a {
+    color: #666;
+    display: block
+}
+.more_game a span {
+    display: inline-block;
+    background: url(../images/more_ico.png) no-repeat center 52%;
+    background-size: 16px auto;
+    width: 16px;
+    text-indent: -9999px;
+    padding-left: 6px
+}
+/*相关专题*/
+.related-topic {
+    width: 100%;
+    background: #fff;
+    margin-top: 7px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dbe1ec;
+}
+.z_l {
+    overflow: hidden;
+    width: 100%;
+}
+.z_l .game_con {
+    width: 46%;
+    height: 100px;
+    margin-left: 9.4px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #f3f3f3;
+    margin-top: 15px;
+    padding-bottom: 5px;
+}
+.zt_img {
+    width: 100%;
+    height: 76.5px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 4px;
+    z-index: 1;
+}
+.zt_img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+}
+.game_img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.infobox_zt {
+    overflow: hidden;
+    display: block;
+    z-index: 2;
+    position: absolute;
+    top: 53px;
+    padding: 0 7.3px;
+    width: 100%;
+}
+.infobox_zt .zt_log {
+    width: 47px;
+    height: 47px;
+    display: inline-block;
+    margin-right: 7.3px;
+}
+.zt_log img {
+    width: 45.8px;
+    height: 45.8px;
+    display: block;
+    overflow: hidden;
+    border-radius: 13px;
+    border: 1px solid #fff;
+}
+.infobox_zt .zt_title h2 {
+    font-size: 14.5px;
+    color: #333;
+    display: block;
+    overflow: hidden;
+    height: 15px;
+    line-height: 15px;
+    margin-top: 27px;
+}
+.zt_title {
+    display: inline-block;
+    overflow: hidden;
+    width: 59%;
+}
+/* footer */
+.footer {
+    background: #f2f2f2;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+.gtop {
+    position: fixed;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    bottom: 34px;
+    right: 20px;
+    z-index: 101;
+    cursor: pointer;
+    background: url(../images/back-top.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+}
+/* 位置 */
+.location {
+    background: #fff;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    color: #19b1f2;
+    margin: 0 0 10px;
+    border-bottom: 1px solid #ccc;
+    border-top: 2px solid #19b1f2;
+}
+.location .home {
+    background: url(../images/home.png) no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    vertical-align: -2px;
+}
+.location span {
+    margin: 0 5px;
+}
+.location a {
+    color: #19b1f2;
+}
+.me_shadow {
+    border-bottom: 1px solid rgba(223, 223, 223, 0.8);
+    -webkit-box-shadow: 0 2px 0 rgba(227, 227, 227, 0.2);
+            box-shadow: 0 2px 0 rgba(227, 227, 227, 0.2)
+}
+/* 专题详情 */
+.show-photo {
+    margin-bottom: 5px;
+}
+.show-photo .pic {
+    padding-bottom: 56.25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative
+}
+.show-photo .pic .title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 38px;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    z-index: 1
+}
+.show-photo .pic::after {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 50px;
+    bottom: 0;
+    background: 0 0;
+    background: -webkit-linear-gradient(top, transparent 0, rgba(0, 0, 0, .5) 90%);
+    background: -o-linear-gradient(top, transparent 0, rgba(0, 0, 0, .5) 90%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, transparent), color-stop(90%, rgba(0, 0, 0, .5)));
+    background: linear-gradient(to bottom, transparent 0, rgba(0, 0, 0, .5) 90%)
+}
+.show-photo .con {
+    padding: 5px 15px 18px;
+    position: relative;
+    background: #fff;
+}
+.show-photo .con .name {
+    font-size: 17px;
+    color: #333;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+.show-photo .con .info {
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666
+}
+.show-photo .con .icon-more {
+    font-size: 12px;
+    position: absolute;
+    right: 18px;
+    bottom: 2px;
+    height: 18px;
+    width: 60px;
+    padding-left: 3px;
+    background: #34b9f4;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    border-radius: 9px;
+}
+.show-photo .show-more .info {
+    -o-text-overflow: inherit;
+       text-overflow: inherit;
+    display: inline-block;
+    overflow: hidden;
+    margin-bottom: -5px;
+}
+.nav-tab li {
+    width: 33.33%;
+    float: left;
+}
+.nav-tab li a {
+    border: 1px solid #dcdcdc;
+    display: block;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background: #f6f6f6;
+    height: 44px;
+    line-height: 44px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-left: -1px;
+}
+.nav-tab li a.select {
+    background: #fff;
+    border-color: #fff;
+    color: #000;
+    border-left: 1px solid #dcdcdc;
+}
+.r_ul {
+    padding: 0 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.games {
+    overflow: hidden;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #dbe1ec;
+}
+.games .base_ul {
+    position: relative;
+    width: 100%;
+    height: 5pc;
+    border-bottom: 1px solid #e6e6e6;
+    float: left;
+}
+.glogo {
+    float: left;
+    overflow: hidden;
+    margin-top: 13px;
+    margin-left: 6px
+}
+.glogo,
+.glogo img {
+    width: 56px;
+    height: 56px
+}
+.glogo img {
+    border-radius: 6px
+}
+.games .name {
+    position: absolute;
+    top: 1pc;
+    left: 76px;
+    float: left;
+    display: block;
+    width: 77%;
+}
+.games .name .title {
+    display: block;
+    overflow: hidden;
+    width: 170px;
+    height: 14px;
+    color: #1c1b1b;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 14px;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+}
+.games .name .intro {
+    margin-top: 9px
+}
+.games .name .intro .type {
+    display: block;
+    height: 11px;
+    line-height: 11px;
+    margin-top: 7px;
+}
+.games .name .intro .type .t_text {
+    color: #0da5ee;
+    text-decoration: none;
+    font-size: 11px;
+    width: 100%;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 16px;
+}
+.games .name .intro .details {
+    display: block;
+    margin-top: 6px;
+    height: 11px;
+    line-height: 11px
+}
+.games .name .intro .details a {
+    color: #a7a7a7;
+    font-size: 11px
+}
+.games ul li .enter {
+    position: absolute;
+    top: 26px;
+    right: 6px;
+    float: right;
+    width: 66px;
+    height: 28px
+}
+.games ul li .enter a {
+    display: block;
+    overflow: hhidden;
+    width: 66px;
+    height: 26px;
+    border-bottom: 2px solid #189dd8;
+    border-radius: 50px;
+    background: #34b9f4;
+    color: #fff;
+    text-align: center;
+    font-size: 9pt;
+    line-height: 26px
+}
+#more {
+    overflow: hidden;
+    width: 100%
+}
+#more .m_title {
+    display: block;
+    overflow: hidden;
+    margin-top: 17px;
+    margin-left: 1pc;
+    height: 15px;
+    line-height: 15px
+}
+#more .m_title a {
+    display: block;
+    color: #0e0e0e;
+    font-size: 15px
+}
+#more .other {
+    margin-top: 11px;
+    border-top: 1px solid #e6e6e6
+}
+.other .game {
+    margin-top: 8px;
+    width: 100%;
+    text-align: center;
+    position: relative
+}
+.other .game .g_img img {
+    z-index: 1;
+    display: block;
+    margin: 0 auto;
+    width: 95%
+}
+.other .under .view {
+    z-index: 5;
+    float: left;
+    display: block;
+    overflow: hidden;
+    margin-top: 6px;
+    margin-left: 10px;
+    width: 20px;
+    height: 9pt;
+    background: url(../images/view.png) no-repeat;
+    background-size: 20px 9pt
+}
+.other .right {
+    z-index: 9;
+    float: right;
+    display: block;
+    overflow: hidden;
+    margin-top: -24px;
+    margin-right: 10px;
+    width: 19px;
+    height: 19px;
+    background: url(../images/right.png) no-repeat;
+    background-size: 19px 19px
+}
+.other .under {
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: -22px;
+    width: 95%;
+    height: 22px;
+    background: url(../images/bg.png)
+}
+.other .under .number {
+    display: block;
+    margin-left: 2pc;
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px
+}
+#morebtn {
+    display: block;
+    margin: 10px auto;
+    width: 95px;
+    height: 23px;
+    border: 1px solid #0da6ed;
+    border-radius: 10px;
+    background: #0da6ed;
+    text-align: center
+}
+#morebtn span {
+    height: 20px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px
+}

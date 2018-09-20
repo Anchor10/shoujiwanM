@@ -1,0 +1,70 @@
+@charset "utf-8";
+.clear{clear:both;height:0;line-height:0;font-size:0;display:block}
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:"";clear:both;height:0}
+
+.full{width:100%;height:100%;background-color:#000;opacity:.7;position:fixed;top:0;left:0;z-index:888;display: none;}
+.logbg{width:100%;height:100%;background-color:#000;opacity:.7;position:fixed;top:0;left:0;z-index:1;display: none;}
+.cover-1{position:fixed;right:0;top:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:200;display:none;}
+
+.horizontal p img{ width: 600px;}
+.horizontal ul li{ float: left; padding-right: 5px;}
+.horizon img{ width: 135px;}
+.vertical img{ width: 300px;}
+
+
+.slider-wrap{  width: 100%; overflow: hidden;}
+.slide-nav{ position: absolute; bottom:8px; width: 100%; text-align: center; font-size: 0; z-index: 10;}
+.slide-nav span{ display: inline-block; width: 8px; height:8px; margin: 0 4px; border-radius: 4px; background-color: #c3c3c3;}
+.slide-nav .curr{ background-color: #ff6e00;}
+
+.pic-mask{ display:none;position: fixed; left: 0; top:0; right:0; bottom:0; background: rgba(0,0,0,0.7); z-index: 2040;}
+.pic-wrap{ position: fixed;left: 0;right: 0;top: 0;bottom: 0;display: -moz-box;display: -webkit-box;-moz-box-orient: vertical;-webkit-box-orient: vertical;-moz-box-pack: center;-webkit-box-pack: center;-moz-box-align: center;-webkit-box-align: center;}
+.pic-main li{float:left;text-align: center;}
+.pic-main li img{ display: inline-block;}
+
+#shotCont{ position:relative;width: 100%; overflow: hidden; z-index:2;}
+#scroller{ position: absolute; transform:translateZ(0px); z-index: 1;}
+.shot-ul{ width: 4000px;}
+
+/* .game_ms .ms-btns {
+    padding-top: 10px;
+    border-top: 2px solid #ccc
+} */
+.game_ms .ms-btns li {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    float: left;
+}
+.game_ms .ms-btns li a {
+    display: block;
+    color: #fff;
+    font-size: 17px;
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+    background-color: #45abff;
+    border-radius: 4px;
+    text-align: center;
+}
+.game_ms .ms-btns li a.xiazai {
+    background-color: #229bff;
+}
+.game_ms .ms-btns li a img {
+    vertical-align: -2px;
+    margin: 13px 10px 0 0;
+}
+.game_ms .ms-btns li a.xiazai img, .game_ms .ms-btns li a.zhushoudown img {
+    height: 16px;
+    width: 17px;
+}
+.game_ms .ms-btns li a.zhuanti {
+    background-color: #ffb32e;
+}
+.game_ms .ms-btns li a.zhuanti img {
+    height: 16px;
+    width: 21.5px;
+}
+
+.download-notice {border: 1px solid #E5E7DB;color: #FDAA62;padding:15px 10px;margin: 10px 0;overflow: hidden;background: #FBFDF5 url(../images/icon-download-notice.gif) no-repeat 10px center;padding-left: 50px;}
+.download-notice li {padding-left: 13px;font-size: 14px;line-height: 20px;color: #FF7200;}

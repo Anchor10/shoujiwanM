@@ -1,0 +1,597 @@
+body {
+    background: #fff;
+}
+
+/*评测详情*/
+.pingce_top {
+    width: 100%;
+    clear: both;
+    position: relative;
+    height: 100px;
+}
+
+.pingce_top .score {
+    position: absolute;
+    left: 50%;
+    margin-left: -33px;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    background: url(../images/pc_score.png) no-repeat;
+    background-size: 65px auto;
+    font-size: 26px;
+    color: #fff;
+    font-style: italic;
+    top: 30px;
+}
+
+.pingce_top .score b {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.pingce_top .text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100px;
+    top: 0
+}
+
+.pingce_top .text p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 10px 6px;
+    height: 38px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.pingce_top .text span {
+    color: #b2b2b2;
+    font-size: 12px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.pingce_top .text span em {
+    margin-right: 10px;
+}
+
+/*专题*/
+.dao {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #eb7365;
+    padding-left: 8px;
+    line-height: 16px;
+    height: 16px;
+    margin: 8px 0;
+    border-left: 4px solid #eb7365;
+}
+
+.content_conent {
+    padding-bottom: 10px;
+}
+
+.Num_tit {
+    line-height: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin: 4px 10px;
+}
+
+.Num_tit .span01 {
+    float: left;
+    width: 40%;
+    height: 30px;
+    overflow: hidden;
+    padding-left: 40px;
+    background: url(../images/no1.png) no-repeat 0 9px;
+    background-size: 31px auto;
+    font-size: 1.1em;
+}
+
+.Num_tit .span02 {
+    float: left;
+    width: 40%;
+    height: 30px;
+    overflow: hidden;
+    padding-left: 40px;
+    background: url(../images/no2.png) no-repeat 0 9px;
+    background-size: 31px auto;
+    font-size: 1.1em;
+}
+
+.Num_tit .span03 {
+    float: left;
+    width: 40%;
+    height: 30px;
+    overflow: hidden;
+    padding-left: 40px;
+    background: url(../images/no3.png) no-repeat 0 9px;
+    background-size: 31px auto;
+    font-size: 1.1em;
+}
+
+.Num_tit .span04 {
+    float: left;
+    width: 40%;
+    height: 30px;
+    overflow: hidden;
+    padding-left: 40px;
+    background: url(../images/no4.png) no-repeat 0 9px;
+    background-size: 31px auto;
+    font-size: 1.1em;
+}
+
+.Num_tit .span05 {
+    float: left;
+    width: 40%;
+    height: 30px;
+    overflow: hidden;
+    padding-left: 40px;
+    background: url(../images/no5.png) no-repeat 0 9px;
+    background-size: 31px auto;
+    font-size: 1.1em;
+}
+
+.Num_tit .span06 {
+    float: left;
+    width: 40%;
+    height: 30px;
+    overflow: hidden;
+    padding-left: 40px;
+    background: url(../images/no6.png) no-repeat 0 9px;
+    background-size: 31px auto;
+    font-size: 1.1em;
+}
+
+.Num_tit .span07 {
+    float: left;
+    width: 40%;
+    height: 30px;
+    overflow: hidden;
+    padding-left: 40px;
+    background: url(../images/no7.png) no-repeat 0 9px;
+    background-size: 31px auto;
+    font-size: 1.1em;
+}
+
+.Num_tit .span08 {
+    float: left;
+    width: 40%;
+    height: 30px;
+    overflow: hidden;
+    padding-left: 40px;
+    background: url(../images/no8.png) no-repeat 0 9px;
+    background-size: 31px auto;
+    font-size: 1.1em;
+}
+
+.Num_tit .span09 {
+    float: left;
+    width: 40%;
+    height: 30px;
+    overflow: hidden;
+    padding-left: 40px;
+    background: url(../images/no9.png) no-repeat 0 9px;
+    background-size: 31px auto;
+    font-size: 1.1em;
+}
+
+.Num_tit .span010 {
+    float: left;
+    width: 40%;
+    height: 30px;
+    overflow: hidden;
+    padding-left: 40px;
+    background: url(../images/no10.png) no-repeat 0 11px;
+    background-size: 36px auto;
+    font-size: 1.1em;
+}
+
+.Num_tit span a {
+    color: #333;
+}
+
+.Num_tit .span_start {
+    float: right;
+    width: 120px;
+    font-size: 12px;
+    color: #333;
+}
+
+.Num_tit .span_start i {
+    float: left;
+}
+
+.Num_tit .span_start span {
+    float: left;
+    margin-top: 9px;
+}
+
+.Num_tit .span_start img {
+    margin-right: 2px;
+    width: 14px;
+    float: left;
+}
+
+.xin_game2 {
+    padding: 5px 10px;
+    margin: 5px 10px;
+    border: 1px solid #d9d9d9;
+    position: relative;
+}
+
+.xin_game2 .p1 {
+    line-height: 22px;
+}
+
+.xin_game2 .a2 {
+    position: absolute;
+    top: 27px;
+    right: 10px;
+    height: 30px;
+    line-height: 32px;
+    text-align: center;
+    width: 60px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: #eb7365;
+    border: 1px solid #eb7365;
+}
+
+.xin_game2 span i {
+    float: left;
+}
+
+.reson {
+    color: #fff;
+    line-height: 20px;
+    float: left;
+    font-size: 12px;
+    width: 100%;
+    margin-bottom: 5px
+}
+
+.reson p {
+    padding: 5px;
+    background: #f29f76;
+    margin: 2px 10px;
+}
+
+/*专题，截图展示*/
+.detail_img {
+    margin: 0 10px 10px;
+    min-height: 100px;
+    position: relative;
+    z-index: 99;
+}
+
+.detail_img_in {
+    float: left;
+    overflow: hidden;
+}
+
+.detail_img li {
+    float: left;
+    max-width: 200px;
+    min-height: 120px;
+    overflow: hidden;
+    margin-right: 4px;
+}
+
+.detail_img li img {
+    float: left;
+    max-height: 230px;
+    max-width: 200px;
+}
+
+.iScrollHorizontalScrollbar {
+    position: absolute;
+    z-index: 9999;
+    height: 2px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+}
+
+.iScrollHorizontalScrollbar .iScrollIndicator {
+    height: 100%;
+    position: absolute;
+}
+
+
+
+/* 玩家热搜 */
+/*专题*/
+.list_newgame {
+    padding: 3px 10px;
+    clear: both;
+}
+
+.list_newgame li {
+    clear: both;
+    padding: 8px 0;
+    border-bottom: 1px dashed #d7d7d7;
+    position: relative;
+    height: 96px;
+    overflow: hidden;
+}
+
+.list_newgame li:last-child {
+    border-bottom: 0;
+}
+
+.list_newgame li .a1 {
+    clear: both;
+    line-height: 24px;
+    height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.list_newgame li .a2 {
+    position: absolute;
+    left: 0;
+    top: 37px;
+    width: 100px;
+    height: 66px;
+}
+
+.list_newgame li .a2 em {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 56px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+.list_newgame li .a2 img {
+    width: 100px;
+    height: 66px;
+}
+
+.list_newgame li .a2 .video {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url(../img/newgame/vedio.png) no-repeat;
+    background-size: 30px auto;
+    top: 18px;
+    left: 35px;
+}
+
+.list_newgame li .a2 .score {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url(../img/newgame/pc_score.png) no-repeat;
+    background-size: 30px auto;
+    top: 18px;
+    left: 35px;
+    color: #fff;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center;
+    font-style: italic;
+}
+
+.list_newgame li .p1 {
+    position: absolute;
+    left: 115px;
+    top: 37px;
+    right: 0;
+    color: #808080;
+    font-size: 12px;
+    line-height: 18px;
+    height: 36px;
+    overflow: hidden;
+}
+
+.list_newgame li .p2 {
+    position: absolute;
+    left: 115px;
+    top: 82px;
+    right: 0;
+    font-size: 12px;
+    color: #808080;
+    line-height: 20px;
+}
+
+.android_content {
+    margin: 0 10px;
+}
+
+.content_conent {
+    font-size: 14px;
+    line-height: 25px;
+    color: #666;
+}
+
+.new_game_con {
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.mask {
+    border-bottom: 1px solid rgba(223, 223, 223, 0.8);
+    box-shadow: 0 2px 0 rgba(227, 227, 227, 0.2)
+}
+
+.new_game_tit,
+.position {
+    border-top: 2px solid #eb7365;
+    line-height: 40px;
+    border-bottom: 1px solid #e6e6e6;
+    color: #eb7365;
+    text-indent: 10px;
+    font-weight: 800;
+    position: relative;
+    z-index: 10
+}
+
+
+.xin_game {
+    margin-bottom: 8px;
+}
+
+.xin_game li {
+    margin: 0 10px;
+    border-bottom: 1px dashed #d7d7d7;
+    padding-bottom: 10px;
+}
+
+.xin_game li {
+    display: block;
+    position: relative;
+    padding: 6px 0
+}
+
+.xin_game li .img1,
+.xin_game2 .img1 {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 2px 10px 2px 0;
+}
+
+.xin_game li .img1 img,
+.xin_game2 .img1 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 3px;
+}
+
+.xin_game li .p1,
+.xin_game2 .p1 {
+    display: inline-block;
+    width: 70%;
+    line-height: 20px;
+    padding-top: 3px;
+}
+
+.xin_game li .p1 span {
+    display: block;
+    color: #333;
+    margin: 4px 0 2px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 70%;
+}
+
+.xin_game li .p1 em,
+.xin_game2 .p1 span {
+    color: #808080;
+    display: block;
+    font-size: 12px;
+}
+
+.xin_game li .p1 em b {
+    color: #f44b04;
+    font-weight: normal;
+}
+
+.xin_game li .p2 {
+    position: absolute;
+    top: 27px;
+    right: 5px;
+}
+
+.xin_game li .p2 span {
+    display: block;
+    height: 30px;
+    line-height: 32px;
+    text-align: center;
+    width: 60px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.xin_game li .p2 .span1 {
+    color: #eb7365;
+    border: 1px solid #eb7365;
+}
+
+.text_list {
+    clear: both;
+    padding: 0 10px;
+}
+
+.text_list li {
+    border-bottom: 1px dashed #d7d7d7;
+    font-size: 14px;
+    line-height: 35px;
+    height: 35px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.text_list li a {
+    display: block;
+    background: url(../images/list2_ico.png) no-repeat left center; background-size:5px auto; padding-left:15px; color:#808080;}
+
+        .text_list li:last-child {
+        border-bottom: none;
+    }
+
+    .hotgame {
+        clear: both;
+        margin: 11px 0 0;
+    }
+
+    .hotgame li {
+        margin-bottom: 15px;
+        width: 25%;
+        float: left;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .hotgame li img {
+        width: 70px;
+        height: 70px;
+        border-radius: 3px;
+    }
+
+    .hotgame li p {
+        line-height: 25px;
+        height: 25px;
+        overflow: hidden;
+        margin-bottom: 4px;
+    }
+
+    .hotgame li span {
+        width: 60px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border: 1px solid #eb7365;
+        color: #eb7365;
+        display: block;
+        margin: 0 auto;
+        border-radius: 3px;
+    }
+
+    .bbtt {
+        border-bottom: 1px solid #e5e5e5;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
